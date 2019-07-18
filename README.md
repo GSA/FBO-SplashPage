@@ -1,2 +1,2 @@
-# FBO-Splash Page
+# FBO - Splash Page
 FBO - Federalist Splash Page
