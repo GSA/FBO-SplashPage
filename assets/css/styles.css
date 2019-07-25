@@ -12,6 +12,7 @@
 a {
   color: #2378c3;
   text-decoration: none;
+  text-align: center;
 }
 
 a:hover{
@@ -187,15 +188,7 @@ a:hover{
     display: auto;
     margin: auto;
   }
-/*
-.wdol-video p{
-  font-size: 22px;
-  text-align: center;
-  line-height: 34px;
-  font-weight: 600;
-  margin-bottom: 40px;
-}
-*/
+
 .row1{
   background: none;
   padding-top: 50px;
@@ -208,6 +201,10 @@ a:hover{
   padding-bottom: 50px;
 }
 
+.button2{
+  padding-bottom: 50px;
+}
+
 .row3{
   align-items: center;
   justify-content: center;
@@ -216,9 +213,28 @@ a:hover{
   padding-bottom: 50px;
 }
 
-.placeholder{
-  background-color: blue;
-  padding-top: 56.25%;
+.video-container{
+  padding-top: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.search{
+    height: 25px;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.user{
+  height: 25px;
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+.workspace{
+  height: 25px;
+  padding-left: 5px;
+  padding-right: 10px;
 }
 
 .video-title{
@@ -229,9 +245,31 @@ a:hover{
   margin-block-end: 0;
 }
 
+.video-button{
+  display: inline-flex;
+  align-items: center;
+  margin-top: 15px;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid #2c608a;
+  border-radius: 12px;
+  text-emphasis-color: #2c608a;
+}
+
+.video-button:hover{
+  display: inline-flex;
+  align-items: center;
+  margin-top: 15px;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid black;
+  border-radius: 12px;
+  text-decoration-color: black;
+}
+
 .qsg {
   width: 60px;
-  margin-top: 35px;
+  margin-top: 20px;
   fill: #AFAEA2;
 }
 
@@ -240,16 +278,20 @@ a:hover{
 
 .buttons{
   background: #f9f9f7;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  border: 2px solid #2c608a;
-  border-radius: 12px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .video-img, .faq-img{
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 20px;
+}
+
+.button-wrapper{
+  border: 1px solid #376086;
+  border-radius: 20px;
 }
 
 .actual-image{
@@ -260,10 +302,18 @@ a:hover{
 
 .video-img img{
   width: 60px;
+  height: 50px;
 }
 
 .faq-img img{
   width: 80px;
+}
+
+.faq-text{
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .button-text{
@@ -271,6 +321,21 @@ a:hover{
   display: flex;
   text-align: center;
   justify-content: center;
+}
+
+.grid-row.help-section > div > a {
+  min-height: 105px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.grid-row.help-section .image-wrap { 
+  min-height: 60px;
+}
+
+.grid-row.help-section .image-wrap img { 
+  display: block;
+  margin: 0 auto;
 }
 
 /* === Tablet & Desktop === */
@@ -335,7 +400,8 @@ a:hover{
 /* === accessible-html5-video-player === */
 
 .px-video-container video{
-  width: 100%;
+  /*width: 100%;*/
+  width: 60%;
 }
 
 /* === Tablet & Desktop === */

@@ -159,11 +159,16 @@
         <div class="row1">
           <div class="grid-container">
             <div class="grid-row grid-gap">
-              <div class="grid-col-6">
-                <!-- Placeholder -->
-                <div class="placeholder"></div>
+              <div class="desktop:grid-col-6 tablet:grid-col-12">
+                <!-- Video -->
+                <div class="video-container">
+                  <video width="400" controls poster="./assets/video/fire.jpg">
+                    <source src="./assets/video/fire.mp4" type="video/mp4">
+                  Your browser does not support HTML5 video.
+                </video>
+                </div>
               </div>
-              <div class="grid-col-6">
+              <div class="desktop:grid-col-6 tablet:grid-col-12">
                 <div class="grid-container">
                   <div class="grid-row grid-gap">
                     <div class="grid-col-12">
@@ -177,9 +182,9 @@
                     <div class="grid-col-fill">
                       <p class="video-text">beta.SAM.gov is now home to all active contract opportunities formerly posted to FBO.gov</p>
                       <p class="video-text">Read the <a href="">Quick Start Guide</a> and get familiar with beta.SAM.gov's features</p>
-                    </div>
-                    <div class="grid-col-12">
-                      <p>Search Contract Opportunities</p>
+                      <button class="video-button">
+                        <img class="search" src="./assets/img/search.svg">Search Contract Opportunities
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -191,7 +196,7 @@
         <div class="row2">
           <div class="grid-container">
             <div class="grid-row grid-gap">
-              <div class="grid-col-6">
+              <div class="desktop:grid-col-6 tablet:grid-col-12 desktop:order-first tablet:order-last">
                 <div class="grid-container">
                   <div class="grid-row grid-gap">
                     <div class="grid-col-12">
@@ -204,14 +209,19 @@
                     <div class="grid-col-fill">
                       <p class="video-text">Users with accounts have the ability to save searches, follow opportunities, and join interested vendor lists</p>
                       <p class="video-text">Read the <a href="">Quick Start Guide</a> and get up and running on beta.SAM.gov</p>
+                      <button class="video-button"><img class="user" src="./assets/img/user.svg">Sign up for beta.SAM.gov</button>
                     </div>
-                  </div class="grid-col-12">
-                  <p>Sign Up for beta.SAM.gov</p>
+                  </div>
                 </div>
               </div>
-              <div class="grid-col-6">
-                <!-- Placeholder -->
-                <div class="placeholder"></div>
+              <div class="desktop:grid-col-6 tablet:grid-col-12 desktop:order-last tablet:order-first">
+                  <!-- Video -->  
+                  <div class="video-container">
+                    <video width="400" controls poster="./assets/video/fire.jpg">
+                      <source src="./assets/video/fire.mp4" type="video/mp4">
+                      Your browser does not support HTML5 video.  
+                    </video>
+                  </div>
               </div>
             </div>
           </div>
@@ -220,11 +230,16 @@
         <div class="row3">
           <div class="grid-container">
             <div class="grid-row grid-gap">
-              <div class="grid-col-6">
-                <!-- Placeholder -->
-                <div class="placeholder"></div>
+              <div class="desktop:grid-col-6 tablet:grid-col-12">
+                <div class="video-container">
+                  <!-- Video -->
+                  <video width="400" controls poster="./assets/video/fire.jpg">
+                    <source src="./assets/video/fire.mp4" type="video/mp4">
+                    Your browser does not support HTML5 video.
+                  </video>
+                </div>
               </div>
-              <div class="grid-col-6">
+              <div class="desktop:grid-col-6 tablet:grid-col-12">
                 <div class="grid-container">
                   <div class="grid-row grid-gap">
                     <div class="grid-col-12">
@@ -237,10 +252,8 @@
                     </div>
                     <div class="grid-col-fill">
                       <p class="video-text">Once you've migrated your FBO roles or obtained roles from your agency administrator, start posting</p>
-                      <p class="video-text">Read the <a href="">Quick Start Guide</a> and get up and start posting your opportunitieso on beta.SAM.gov</p>
-                    </div>
-                    <div class="grid-col-12">
-                      <p>Sign in to your Workspace</p>
+                      <p class="video-text">Read the <a href="">Quick Start Guide</a> and get up and start posting your opportunities on beta.SAM.gov</p>
+                      <button class="video-button"><img class="workspace" src="./assets/img/workspace.svg">Sign in to your Workspace</button>
                     </div>
                   </div>
                 </div>
@@ -253,19 +266,37 @@
       <!-- Buttons -->
       <div class="buttons">
         <div class="grid-container">
-          <div class="grid-row grid-gap">
-            <div class="grid-col-6 video-img">
+          <div class="grid-row grid-gap help-section">
+            <div class="grid-col-4 grid-offset-1">
               <a href="">
-                <img class="actual-image" src="./assets/img/video.svg" alt="Video Training Library"/>
-                <br>
-                <p class="button-text">Video Training Library</p>
+                <div class="grid-container grid-row grid-gap button-wrapper">
+                  <div class="grid-col-fill">
+                    <div class="video-img">
+                      <div class="image-wrap">
+                        <img class="actual-image" src="./assets/img/video.svg" alt="Video Training Library"/>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid-col-12">
+                    <p class="button-text">Video Training Library</p>
+                  </div>
+                </div>
               </a>
             </div>
-            <div class="grid-col-6 faq-img">
+            <div class="grid-col-4 grid-offset-2">
               <a href="">
-                <img class="actual-image" src="./assets/img/faq.svg" alt="Frequently Asked Questions"/>
-                <br>
-                <p class="button-text">Frequently Asked Questions</p>
+                <div class="grid-container grid-row grid-gap button-wrapper">
+                  <div class="grid-col-fill">
+                    <div class="faq-img">
+                      <div class="image-wrap">
+                        <img class="actual-image" src="./assets/img/faq.svg" alt="Frequently Asked Questions"/>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid-col-12 faq-text">
+                    <p class="button-text">Frequently Asked Questions</p>
+                  </div>
+                </div>
               </a>
             </div>
           </div>
@@ -279,18 +310,17 @@
       <div class="grid-container">
         <img src="./assets/img/GSA.png" alt="GSA Logo"/>
         <span>
-          U.S. General Services Administration
-        </span>
+              U.S. General Services Administration
+            </span>
         <p>
-          This is a U.S. General Services Administration Federal Government
-          computer system that is "FOR OFFICIAL USE ONLY." This system is
-          subject to monitoring. Individuals found performing unauthorized
-          activities are subject to disciplinary action including criminal
-          prosecution.
-        </p>
+            This is a U.S. General Services Administration Federal Government
+            computer system that is "FOR OFFICIAL USE ONLY." This system is
+            subject to monitoring. Individuals found performing unauthorized
+            activities are subject to disciplinary action including criminal
+            prosecution.
+            </p>
       </div>
     </footer>
-
     <script src="./libs/uswds-2.0.2/js/uswds.min.js"></script>
     <script src="./libs/accessible-html5-video-player/js/strings.js"></script>
     <script src="./libs/accessible-html5-video-player/js/px-video.js"></script>
