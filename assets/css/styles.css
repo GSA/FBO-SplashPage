@@ -1,0 +1,396 @@
+/* GLOBAL
+   ============================= */
+/* Enable semibold */
+@font-face{
+  font-family:Source Sans Pro Web;
+  font-style:normal;
+  font-weight:600;
+  font-display:fallback;
+  src:url(../../libs/uswds-2.0.2/fonts/source-sans-pro/sourcesanspro-semibold-webfont.woff2) format("woff2"), url(../../libs/uswds-2.0.2/fonts/source-sans-pro/sourcesanspro-semibold-webfont.woff) format("woff"), url(../../libs/uswds-2.0.2/fonts/source-sans-pro/sourcesanspro-semibold-webfont.ttf) format("truetype");
+}
+
+a {
+  color: #2378c3;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* HEADER SECTION
+   ============================= */
+
+.fbo-header .fbo-header__logo{
+  justify-content: center;
+}
+
+.fbo-header .fbo-header__logo img{
+  width: 210px;
+}
+
+/* === Tablet & Desktop === */
+/* Remove centering content in Tablet and Desktop */
+@media all and (min-width: 640px) {
+  .fbo-header .fbo-header__logo{
+    justify-content: flex-start;
+  }
+}
+
+/* FBO AND SAM LOGOS
+   ============================= */
+.fbo-logos__fbo,
+.fbo-logos__sam {
+  display: flex;
+  align-items: center;
+}
+
+.fbo-logos__fbo{
+  justify-content: flex-end;
+}
+
+.fbo-logos__sam {
+  justify-content: flex-start;
+}
+
+.fbo-logos__fbo img{
+  margin-right: 20px;
+  width: 110px;
+}
+
+.fbo-logos__sam img{
+  width: 120px;
+}
+
+/* === Tablet & Desktop === */
+@media all and (min-width: 640px) {
+  .fbo-logos__fbo,
+  .fbo-logos__sam {
+    justify-content: center;
+  }
+
+  .fbo-logos__fbo img{
+    margin-top: -30px; /* Visually centers with text */
+    margin-right: 0;
+    width: 150px;
+  }
+
+  .fbo-logos__sam img{
+    width: 150px;
+  }
+}
+
+/* FBO AND SAM CONTENT
+   ============================= */
+.dividing-line::after{
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  border-bottom: 1px solid;
+}
+
+.fbo-logos-content__fbo{
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.fbo-logos-content__sam {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+/* === Tablet & Desktop === */
+@media all and (min-width: 640px) {
+  .dividing-line::after{
+    content: none; /* Hide dividing line */
+  }
+  .fbo-logos-content__fbo{
+    font-size: 26px;
+    margin: -15px 0 40px 0; /* Visually centers with logo */
+  }
+  .fbo-logos-content__sam{
+    margin: 20px 0 0 0;
+  }
+}
+
+/* FBO ANNOUNCEMENT SECTION
+   ============================= */
+.fbo-announcement {
+  background-color: #f9faf9;
+  margin-top: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.fbo-announcement p{
+  color: #231f20;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+}
+
+/* === Tablet & Desktop === */
+@media all and (min-width: 640px) {
+  .fbo-announcement p{
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .fbo-links .fbo-links__content {
+    flex-direction: row;
+  }
+  .fbo-links .fbo-links__content a {
+    margin: auto;
+  }  
+}
+
+/* VIDEO SECTION
+   ============================= */
+   
+.fbo-video{
+    display: auto;
+    margin: auto;
+  }
+
+.row1{
+  background: none;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.row2{
+  background: #f6f6f2;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.button2{
+  padding-bottom: 50px;
+}
+
+.row3{
+  align-items: center;
+  justify-content: center;
+  background: none;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.video-container{
+  padding-top: 25px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.search{
+    height: 25px;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.user{
+  height: 25px;
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+.workspace{
+  height: 25px;
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+.video-text{
+  margin-block-end: 0;
+}
+
+.video-button{
+  display: inline-flex;
+  align-items: center;
+  margin-top: 15px;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid #2c608a;
+  border-radius: 12px;
+  -webkit-text-fill-color: #2c608a;
+}
+
+.video-button:hover{
+  display: inline-flex;
+  align-items: center;
+  margin-top: 15px;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid black;
+  border-radius: 12px;
+  text-decoration-color: black;
+}
+
+.qsg {
+  width: 60px;
+  margin-top: 20px;
+  fill: #AFAEA2;
+}
+
+/* BUTTONS SECTION
+   ======================= */
+
+.buttons{
+  background: #f9f9f7;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.video-img, .faq-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.button-wrapper{
+  border: 1px solid #376086;
+  border-radius: 20px;
+}
+
+.button-wrapper:hover{
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.actual-image{
+  max-height: 60px;
+  align-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.video-img img{
+  width: 60px;
+  height: 50px;
+}
+
+.faq-img img{
+  width: 80px;
+}
+
+.faq-text{
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.button-text{
+  margin-top: 4px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.grid-row.help-section > div > a {
+  min-height: 105px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.grid-row.help-section .image-wrap { 
+  min-height: 60px;
+}
+
+.grid-row.help-section .image-wrap img { 
+  display: block;
+  margin: 0 auto;
+}
+
+.video-title{
+  margin-block-end: 0;
+}
+
+/* === Mobile === */
+@media all and (max-width: 1023px) {
+  
+  .video-title .fbo-video p{
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .grid-container{
+    text-align: center;
+  }
+
+
+}
+
+/* FOOTER SECTION
+   ============================= */
+.fbo-footer{
+  background-color: #D9E8F6;
+  padding: 60px 0px;
+  margin-top: 0px;
+}
+
+.fbo-footer img{
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+.fbo-footer span{
+  color: #00538E;
+  display: block;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.fbo-footer p{
+  margin-top: 40px;
+  text-align: center;
+  line-height: 25px;
+  padding: 0px 30px;
+}
+
+/* === Tablet & Desktop === */
+@media all and (min-width: 640px) {
+  .fbo-footer img{
+    margin: auto;
+    display: block;
+  }
+  .fbo-footer span{
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+  }
+  .fbo-footer p{
+    padding: 0;
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+
+/* LIBRARY OVERRIDES
+   ============================= */
+
+/* === accessible-html5-video-player === */
+
+.px-video-container video{
+  /*width: 100%;*/
+  width: 60%;
+}
+
+/* === Tablet & Desktop === */
+@media all and (min-width: 640px) {
+  .px-video-container {
+    width: 640px !important;
+    margin: auto;
+  }
+}
+
+/* Fixes flickering in video player time tooltip
+ - USWDS adds styles to .clearfix::after
+*/
+.px-video-controls .clearfix::after{
+  content: none;
+}
