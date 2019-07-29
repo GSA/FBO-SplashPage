@@ -15,10 +15,6 @@ a {
   text-align: center;
 }
 
-a:hover{
-  color: #162e51;
-}
-
 /* HEADER SECTION
    ============================= */
 
@@ -228,8 +224,6 @@ a:hover{
   border: 1px solid black;
   border-radius: 12px;
   text-decoration-color: black;
-  -webkit-text-fill-color: black;
-
 }
 
 .qsg {
