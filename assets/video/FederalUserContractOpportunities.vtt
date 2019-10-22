@@ -1,0 +1,1003 @@
+WEBVTT - This file has cues.
+
+0:00:05.170,0:00:11.420
+[Music]
+ 
+0:00:08.320,0:00:13.969
+this video is going to cover system
+ 
+0:00:11.420,0:00:16.250
+functions available to federal users
+ 
+0:00:13.969,0:00:19.279
+with the roles of Contracting Officer
+ 
+0:00:16.250,0:00:21.590
+and contract specialist within the
+ 
+0:00:19.279,0:00:25.130
+contract opportunities domain on beta
+ 
+0:00:21.590,0:00:28.070
+Sam.gov before we begin there are a few
+ 
+0:00:25.130,0:00:31.369
+things we should mention the FBO.gov
+ 
+0:00:28.070,0:00:35.089
+buyer role is now contracting officer
+ 
+0:00:31.369,0:00:37.730
+and all the FBO.gov roles of limited
+ 
+0:00:35.089,0:00:40.760
+buyer and engineer now both fall within
+ 
+0:00:37.730,0:00:43.010
+the role of contract specialist within
+ 
+0:00:40.760,0:00:46.010
+this system the contract officer role
+ 
+0:00:43.010,0:00:47.809
+possesses the most authority along with
+ 
+0:00:46.010,0:00:49.640
+the ability to complete any action
+ 
+0:00:47.809,0:00:52.940
+available to the contract specialist
+ 
+0:00:49.640,0:00:55.579
+role contract officer is the only role
+ 
+0:00:52.940,0:00:59.120
+able to post or publish an opportunity
+ 
+0:00:55.579,0:01:01.940
+or an opportunity update to beta.Sam.gov
+ 
+0:00:59.120,0:01:03.980
+it is also the only role which can
+ 
+0:01:01.940,0:01:06.789
+change interested vendor list settings
+ 
+0:01:03.980,0:01:11.090
+delete attachments from postings and
+ 
+0:01:06.789,0:01:13.190
+delete postings altogether any users
+ 
+0:01:11.090,0:01:15.229
+looking for information regarding system
+ 
+0:01:13.190,0:01:17.920
+accounts should look for the separate
+ 
+0:01:15.229,0:01:20.660
+training video covering system accounts
+ 
+0:01:17.920,0:01:23.690
+the permissions associated with the
+ 
+0:01:20.660,0:01:25.550
+contract specialist role will vary users
+ 
+0:01:23.690,0:01:27.410
+with full contract specialist rights
+ 
+0:01:25.550,0:01:30.289
+will be able to create draft
+ 
+0:01:27.410,0:01:33.530
+opportunities create draft opportunity
+ 
+0:01:30.289,0:01:35.929
+updates edit draft opportunities add
+ 
+0:01:33.530,0:01:39.229
+attachments and links and follow
+ 
+0:01:35.929,0:01:41.300
+opportunities now that you understand
+ 
+0:01:39.229,0:01:44.030
+the roles associated with the contract
+ 
+0:01:41.300,0:01:45.890
+opportunities domain let's go over some
+ 
+0:01:44.030,0:01:48.860
+of the other changes in terminology
+ 
+0:01:45.890,0:01:53.539
+associated with the transition from FBO.
+ 
+0:01:48.860,0:01:58.099
+gov to beta.Sam.gov the legacy term
+ 
+0:01:53.539,0:02:00.590
+watch list is now called following users
+ 
+0:01:58.099,0:02:04.190
+can follow opportunities to receive
+ 
+0:02:00.590,0:02:06.119
+updates the legacy search agents is now
+ 
+0:02:04.190,0:02:08.970
+saved search
+ 
+0:02:06.119,0:02:11.760
+next users no longer need to worry about
+ 
+0:02:08.970,0:02:14.459
+archiving opportunities and can simply
+ 
+0:02:11.760,0:02:16.440
+mark them inactive and the opportunities
+ 
+0:02:14.459,0:02:20.550
+will be automatically archived within
+ 
+0:02:16.440,0:02:22.940
+Beta.Sam.gov has
+ 
+0:02:20.550,0:02:25.709
+also broken-down packages to just
+ 
+0:02:22.940,0:02:27.870
+attachments but the functionality that
+ 
+0:02:25.709,0:02:30.239
+allows you to associated control
+ 
+0:02:27.870,0:02:31.769
+documents remains the same with the
+ 
+0:02:30.239,0:02:33.110
+added benefit of being managed
+ 
+0:02:31.769,0:02:35.760
+individually
+ 
+0:02:33.110,0:02:38.430
+additionally beta.Sam.gov is
+ 
+0:02:35.760,0:02:41.220
+updating the legacy modification
+ 
+0:02:38.430,0:02:42.989
+amendment terms which indicated that a
+ 
+0:02:41.220,0:02:46.349
+notice was edited and published again
+ 
+0:02:42.989,0:02:48.319
+within the system amended or edited
+ 
+0:02:46.349,0:02:52.440
+opportunities will be marked simply
+ 
+0:02:48.319,0:02:54.150
+updated on beta.Sam.gov this is due
+ 
+0:02:52.440,0:02:56.370
+to the fact that most opportunity
+ 
+0:02:54.150,0:02:59.640
+revisions are indicating clarifications
+ 
+0:02:56.370,0:03:02.160
+Corrections or simply system updates and
+ 
+0:02:59.640,0:03:04.769
+are not indicating true Acquisition
+ 
+0:03:02.160,0:03:07.079
+amendments or modifications with the
+ 
+0:03:04.769,0:03:10.139
+important changes noted will now begin
+ 
+0:03:07.079,0:03:11.910
+the system tutorial the first section
+ 
+0:03:10.139,0:03:14.549
+will cover creating and posting a
+ 
+0:03:11.910,0:03:16.380
+contract opportunity it will then be
+ 
+0:03:14.549,0:03:18.510
+followed by tutorials covering the
+ 
+0:03:16.380,0:03:21.030
+editing opportunities and deleting
+ 
+0:03:18.510,0:03:24.780
+opportunities users looking to create
+ 
+0:03:21.030,0:03:27.750
+and save as draft or post a contract
+ 
+0:03:24.780,0:03:30.660
+opportunity to beta.Sam.gov can
+ 
+0:03:27.750,0:03:33.690
+begin by logging into beta.Sam.gov and
+ 
+0:03:30.660,0:03:35.849
+navigating to their workspace once in
+ 
+0:03:33.690,0:03:38.579
+your workspace about halfway down the
+ 
+0:03:35.849,0:03:41.099
+page will be a widget headed contract
+ 
+0:03:38.579,0:03:43.049
+opportunities there are several options
+ 
+0:03:41.099,0:03:46.230
+within this widget through which you can
+ 
+0:03:43.049,0:03:48.120
+begin the create opportunity process we
+ 
+0:03:46.230,0:03:51.930
+recommend that you click contract
+ 
+0:03:48.120,0:03:54.239
+opportunities workspace once in the
+ 
+0:03:51.930,0:03:55.919
+contract opportunities workspace you
+ 
+0:03:54.239,0:03:57.870
+will find a dashboard through which you
+ 
+0:03:55.919,0:04:01.739
+can find a search for all the active
+ 
+0:03:57.870,0:04:05.250
+inactive completed and draft contract
+ 
+0:04:01.739,0:04:07.200
+opportunities on beta.Sam.gov you will
+ 
+0:04:05.250,0:04:09.209
+notice that the list of filters allowing
+ 
+0:04:07.200,0:04:11.609
+you to refine your search by opportunity
+ 
+0:04:09.209,0:04:14.270
+status contain the options active
+ 
+0:04:11.609,0:04:16.640
+canceled and inactive cancer
+ 
+0:04:14.270,0:04:19.700
+these two options will eventually become
+ 
+0:04:16.640,0:04:21.350
+simply canceled so users should not be
+ 
+0:04:19.700,0:04:24.140
+alarmed if these options appear slightly
+ 
+0:04:21.350,0:04:26.270
+different on their screen to start
+ 
+0:04:24.140,0:04:28.010
+creating an opportunity begin by
+ 
+0:04:26.270,0:04:32.170
+clicking the blue button towards the top
+ 
+0:04:28.010,0:04:34.370
+of the screen ad contract opportunity
+ 
+0:04:32.170,0:04:36.950
+start by selecting the type of
+ 
+0:04:34.370,0:04:40.790
+solicitation and then enter in the title
+ 
+0:04:36.950,0:04:42.710
+and other identifying information before
+ 
+0:04:40.790,0:04:45.050
+moving on we want to note that if you
+ 
+0:04:42.710,0:04:47.270
+have an existing opportunity you can
+ 
+0:04:45.050,0:04:49.010
+update that opportunity by selecting a
+ 
+0:04:47.270,0:04:51.110
+solicitation type that's further down
+ 
+0:04:49.010,0:04:53.780
+the progression towards completion and
+ 
+0:04:51.110,0:04:56.690
+linking it to that existing solicitation
+ 
+0:04:53.780,0:04:59.140
+for example if you have an existing
+ 
+0:04:56.690,0:05:02.120
+opportunity that is a pre-solicitation
+ 
+0:04:59.140,0:05:04.100
+by creating a new post that is a
+ 
+0:05:02.120,0:05:06.920
+solicitation and linking it to that
+ 
+0:05:04.100,0:05:09.170
+opportunity that existing post will
+ 
+0:05:06.920,0:05:11.710
+automatically be linked and updated with
+ 
+0:05:09.170,0:05:14.570
+the newly entered corresponding data
+ 
+0:05:11.710,0:05:16.580
+when you reach the federal organization
+ 
+0:05:14.570,0:05:19.850
+picker it is recommended that you click
+ 
+0:05:16.580,0:05:23.990
+advanced before selecting select the
+ 
+0:05:19.850,0:05:26.090
+relevant agency and office once the
+ 
+0:05:23.990,0:05:29.030
+office is selected click the green Add
+ 
+0:05:26.090,0:05:33.050
+button and then click Next to move on to
+ 
+0:05:29.030,0:05:35.780
+the general information next in the
+ 
+0:05:33.050,0:05:37.580
+general information section select the
+ 
+0:05:35.780,0:05:40.610
+due date of your contract opportunity
+ 
+0:05:37.580,0:05:42.320
+and then select the criteria for when
+ 
+0:05:40.610,0:05:46.670
+your opportunity will be marked as
+ 
+0:05:42.320,0:05:48.140
+inactive and archived it is also in this
+ 
+0:05:46.670,0:05:50.150
+section that you can dictate the
+ 
+0:05:48.140,0:05:54.160
+creation of an interested vendors list
+ 
+0:05:50.150,0:05:56.660
+and who will have visibility to the IBL
+ 
+0:05:54.160,0:05:58.580
+we want to note that the ability to
+ 
+0:05:56.660,0:06:01.670
+modify interested vendors list settings
+ 
+0:05:58.580,0:06:04.070
+is based on account permissions so users
+ 
+0:06:01.670,0:06:06.050
+who need to change default IVL settings
+ 
+0:06:04.070,0:06:08.600
+but cannot because they are locked into
+ 
+0:06:06.050,0:06:10.130
+their default settings should contact
+ 
+0:06:08.600,0:06:12.410
+their administrator to request the
+ 
+0:06:10.130,0:06:15.060
+proper permissions
+ 
+0:06:12.410,0:06:19.320
+once all pertinent information has been
+ 
+0:06:15.060,0:06:21.479
+entered click Next the classification
+ 
+0:06:19.320,0:06:23.820
+section will provide fields to select
+ 
+0:06:21.479,0:06:25.919
+set aside status for your opportunity as
+ 
+0:06:23.820,0:06:29.550
+well as applicable makes codes and
+ 
+0:06:25.919,0:06:31.860
+geographic information please note that
+ 
+0:06:29.550,0:06:34.010
+the ability to select a set aside status
+ 
+0:06:31.860,0:06:36.300
+is available for all opportunity types
+ 
+0:06:34.010,0:06:40.260
+except intent to bundle and
+ 
+0:06:36.300,0:06:42.180
+justification users creating intent to
+ 
+0:06:40.260,0:06:44.340
+bundle or justification opportunity
+ 
+0:06:42.180,0:06:47.940
+types will not be able to select a set
+ 
+0:06:44.340,0:06:52.260
+aside status once you have entered all
+ 
+0:06:47.940,0:06:54.300
+the pertinent information click Next the
+ 
+0:06:52.260,0:06:55.950
+description section will provide a field
+ 
+0:06:54.300,0:06:57.780
+in which you can enter a general
+ 
+0:06:55.950,0:06:59.729
+description that will be displayed as
+ 
+0:06:57.780,0:07:02.729
+part of your opportunity when viewed by
+ 
+0:06:59.729,0:07:04.470
+others once you have finished with your
+ 
+0:07:02.729,0:07:07.050
+description click Next
+ 
+0:07:04.470,0:07:08.940
+following the description section you
+ 
+0:07:07.050,0:07:12.060
+will be able to attach relevant files
+ 
+0:07:08.940,0:07:14.039
+and links click browse to upload files
+ 
+0:07:12.060,0:07:16.289
+from your computer to attach to your
+ 
+0:07:14.039,0:07:19.560
+description users also have the ability
+ 
+0:07:16.289,0:07:21.380
+to simply drag and drop a file from
+ 
+0:07:19.560,0:07:23.910
+their computers default file browser
+ 
+0:07:21.380,0:07:26.820
+simply open your Apple finder or Windows
+ 
+0:07:23.910,0:07:29.610
+Explorer to the proper folder and drag
+ 
+0:07:26.820,0:07:32.849
+the file into the designated box in the
+ 
+0:07:29.610,0:07:34.979
+center of the screen as a note a user
+ 
+0:07:32.849,0:07:37.349
+who is adding or editing attachments on
+ 
+0:07:34.979,0:07:39.060
+a notice has the ability to restrict
+ 
+0:07:37.349,0:07:42.450
+access to controlled but unclassified
+ 
+0:07:39.060,0:07:46.050
+information by simply using the toggle
+ 
+0:07:42.450,0:07:48.060
+in the attachment upload area users will
+ 
+0:07:46.050,0:07:51.539
+then need to authenticate and request
+ 
+0:07:48.060,0:07:54.030
+access to the attachment users will also
+ 
+0:07:51.539,0:07:57.349
+see a log of these requests and a status
+ 
+0:07:54.030,0:07:59.849
+of the request in the general user feeds
+ 
+0:07:57.349,0:08:02.760
+additionally if you need to access any
+ 
+0:07:59.849,0:08:05.010
+outside links click the blue add link
+ 
+0:08:02.760,0:08:08.340
+button and enter the relevant link
+ 
+0:08:05.010,0:08:11.460
+information once you have entered all
+ 
+0:08:08.340,0:08:15.120
+the pertinent information click Next the
+ 
+0:08:11.460,0:08:17.099
+final section is contact info enter in
+ 
+0:08:15.120,0:08:20.700
+all the relevant contact information
+ 
+0:08:17.099,0:08:23.370
+into the provided fields as a note the
+ 
+0:08:20.700,0:08:25.030
+point of contact data entered will be
+ 
+0:08:23.370,0:08:28.500
+publicly available one
+ 
+0:08:25.030,0:08:31.780
+published once entered click done
+ 
+0:08:28.500,0:08:33.430
+once you click done you will be provided
+ 
+0:08:31.780,0:08:35.830
+with the opportunity to review the
+ 
+0:08:33.430,0:08:38.430
+information that you entered as well as
+ 
+0:08:35.830,0:08:40.330
+show how it will appear to public users
+ 
+0:08:38.430,0:08:44.080
+once you have reviewed all the
+ 
+0:08:40.330,0:08:45.910
+information click publish your contract
+ 
+0:08:44.080,0:08:47.410
+opportunity is now published and
+ 
+0:08:45.910,0:08:50.200
+accessible within the contract
+ 
+0:08:47.410,0:08:52.630
+opportunity workspace users looking to
+ 
+0:08:50.200,0:08:55.810
+edit a contract opportunity to beta dot
+ 
+0:08:52.630,0:08:57.910
+sam.gov can begin by logging in to beta.
+ 
+0:08:55.810,0:09:01.540
+Sam.gov and navigating to their
+ 
+0:08:57.910,0:09:03.490
+workspace once in the workspace about
+ 
+0:09:01.540,0:09:06.280
+halfway down the page will be a widget
+ 
+0:09:03.490,0:09:08.080
+called contract opportunities there are
+ 
+0:09:06.280,0:09:09.850
+several options within this widget
+ 
+0:09:08.080,0:09:12.070
+through which you can begin editing an
+ 
+0:09:09.850,0:09:15.030
+opportunity but we recommend that you
+ 
+0:09:12.070,0:09:17.440
+clicked contract opportunities workspace
+ 
+0:09:15.030,0:09:19.330
+once in the contract opportunities
+ 
+0:09:17.440,0:09:21.100
+workspace you will find a dashboard
+ 
+0:09:19.330,0:09:24.460
+through which you can find and search
+ 
+0:09:21.100,0:09:27.970
+for all active inactive canceled and
+ 
+0:09:24.460,0:09:32.440
+draft contract opportunities on beta Sam
+ 
+0:09:27.970,0:09:34.210
+gov as a note any inactive opportunity
+ 
+0:09:32.440,0:09:37.000
+will need to be made active again before
+ 
+0:09:34.210,0:09:38.650
+it can be edited start by locating the
+ 
+0:09:37.000,0:09:42.090
+opportunity that you would like to edit
+ 
+0:09:38.650,0:09:44.020
+and click that opportunity's blue title
+ 
+0:09:42.090,0:09:47.220
+located towards the top of the
+ 
+0:09:44.020,0:09:50.530
+opportunity is an option called edit if
+ 
+0:09:47.220,0:09:53.050
+the edit option is disabled for you that
+ 
+0:09:50.530,0:09:56.380
+means that a draft already exists for
+ 
+0:09:53.050,0:09:58.270
+this post to open that draft select the
+ 
+0:09:56.380,0:10:01.150
+information icon that says an
+ 
+0:09:58.270,0:10:03.400
+unpublished draft revision exists for
+ 
+0:10:01.150,0:10:06.250
+this notice please click here to view it
+ 
+0:10:03.400,0:10:07.750
+click Edit to create a draft notice in
+ 
+0:10:06.250,0:10:10.690
+which you can edit the opportunities
+ 
+0:10:07.750,0:10:12.550
+content users should note that there is
+ 
+0:10:10.690,0:10:15.760
+no expiration date associated with
+ 
+0:10:12.550,0:10:17.650
+drafts so once a draft is created it
+ 
+0:10:15.760,0:10:19.450
+will be available until it is manually
+ 
+0:10:17.650,0:10:22.990
+deleted by a user with the proper
+ 
+0:10:19.450,0:10:25.390
+permissions work through the sections
+ 
+0:10:22.990,0:10:27.790
+one by one and make sure that all
+ 
+0:10:25.390,0:10:31.660
+pertinent information has been changed
+ 
+0:10:27.790,0:10:35.200
+as a note if you are looking to change
+ 
+0:10:31.660,0:10:38.060
+the solicitation type for example from
+ 
+0:10:35.200,0:10:39.620
+pre-solicitation to solicitation
+ 
+0:10:38.060,0:10:42.440
+you will need to create a new
+ 
+0:10:39.620,0:10:44.060
+opportunity when you create the new
+ 
+0:10:42.440,0:10:47.870
+opportunity and link it to the previous
+ 
+0:10:44.060,0:10:50.000
+one beta.Sam.gov will automatically link
+ 
+0:10:47.870,0:10:51.920
+the two opportunities postings and
+ 
+0:10:50.000,0:10:56.300
+transfer the core data to the newest
+ 
+0:10:51.920,0:10:59.410
+version use the attachments workspace to
+ 
+0:10:56.300,0:11:02.240
+modify your opportunities attachments
+ 
+0:10:59.410,0:11:04.940
+you have the ability to add and remove
+ 
+0:11:02.240,0:11:07.010
+documents here if you are adding
+ 
+0:11:04.940,0:11:09.050
+documents you don't have to worry about
+ 
+0:11:07.010,0:11:12.710
+submitting documentation to appear as
+ 
+0:11:09.050,0:11:14.720
+amendments users will not receive
+ 
+0:11:12.710,0:11:16.970
+notifications regarding changes in
+ 
+0:11:14.720,0:11:20.420
+attachments until the draft notice has
+ 
+0:11:16.970,0:11:22.250
+been published once published vendors
+ 
+0:11:20.420,0:11:24.920
+following the posting will be notified
+ 
+0:11:22.250,0:11:26.870
+of the updates by uploading new
+ 
+0:11:24.920,0:11:28.730
+documents vendors will be notified
+ 
+0:11:26.870,0:11:32.300
+automatically that the posting has been
+ 
+0:11:28.730,0:11:34.370
+updated within the post the date that a
+ 
+0:11:32.300,0:11:36.800
+document was attached will be displayed
+ 
+0:11:34.370,0:11:39.380
+next to each attachment so that vendors
+ 
+0:11:36.800,0:11:42.650
+will be able to discern which document
+ 
+0:11:39.380,0:11:44.870
+was uploaded most recently while the
+ 
+0:11:42.650,0:11:47.870
+system may not automatically register a
+ 
+0:11:44.870,0:11:49.820
+new upload as an amendment users can
+ 
+0:11:47.870,0:11:51.800
+still incorporate the word amendment
+ 
+0:11:49.820,0:11:56.420
+within the file name to make it
+ 
+0:11:51.800,0:11:58.340
+additionally discernable to vendors once
+ 
+0:11:56.420,0:12:01.460
+you have updated all pertinent fields
+ 
+0:11:58.340,0:12:03.740
+and verified all entries click the blue
+ 
+0:12:01.460,0:12:06.440
+publish button towards the top of the
+ 
+0:12:03.740,0:12:08.210
+screen should the publish button be
+ 
+0:12:06.440,0:12:10.370
+disabled it is likely due to a
+ 
+0:12:08.210,0:12:13.760
+validation error regarding one of the
+ 
+0:12:10.370,0:12:16.010
+entries within the posting if you cannot
+ 
+0:12:13.760,0:12:18.440
+publish either look for the error banner
+ 
+0:12:16.010,0:12:20.390
+at the top of the screen or look for the
+ 
+0:12:18.440,0:12:22.250
+section on the left side of the screen
+ 
+0:12:20.390,0:12:25.550
+that has an exclamation point rather
+ 
+0:12:22.250,0:12:27.200
+than a green check mark once all
+ 
+0:12:25.550,0:12:29.360
+outstanding input errors have been
+ 
+0:12:27.200,0:12:32.780
+resolved you will be able to publish
+ 
+0:12:29.360,0:12:34.910
+your posting you will be notified that
+ 
+0:12:32.780,0:12:37.550
+all the changes you've made will become
+ 
+0:12:34.910,0:12:40.010
+public should you proceed click OK to
+ 
+0:12:37.550,0:12:41.600
+finish editing your opportunity users
+ 
+0:12:40.010,0:12:44.000
+with the role of contract officer
+ 
+0:12:41.600,0:12:47.780
+looking to delete a contract opportunity
+ 
+0:12:44.000,0:12:49.060
+to bethe sam.gov can begin by logging in
+ 
+0:12:47.780,0:12:52.060
+to beta I am
+ 
+0:12:49.060,0:12:54.190
+and navigating to their workspace once
+ 
+0:12:52.060,0:12:56.680
+in your workspace about halfway down the
+ 
+0:12:54.190,0:12:59.710
+page will be a widget headed contract
+ 
+0:12:56.680,0:13:01.750
+opportunities there are several options
+ 
+0:12:59.710,0:13:04.210
+within this widget through which you can
+ 
+0:13:01.750,0:13:06.370
+delete an opportunity but we recommend
+ 
+0:13:04.210,0:13:10.150
+that you click contract opportunities
+ 
+0:13:06.370,0:13:12.640
+workspace once in the contract
+ 
+0:13:10.150,0:13:14.530
+opportunities workspace you will find a
+ 
+0:13:12.640,0:13:17.770
+dashboard through which you can find in
+ 
+0:13:14.530,0:13:21.160
+search for all active inactive completed
+ 
+0:13:17.770,0:13:24.790
+and draft contract opportunities on beta.
+ 
+0:13:21.160,0:13:27.190
+Sam.gov we want to note here that
+ 
+0:13:24.790,0:13:30.100
+the ability to delete either draft
+ 
+0:13:27.190,0:13:33.160
+notices or published opportunities is
+ 
+0:13:30.100,0:13:35.440
+permission dependent so if you find any
+ 
+0:13:33.160,0:13:37.090
+options locked contact your
+ 
+0:13:35.440,0:13:39.040
+administrator because you will likely
+ 
+0:13:37.090,0:13:42.820
+need to be delegated these advanced
+ 
+0:13:39.040,0:13:45.550
+permissions to delete an opportunity
+ 
+0:13:42.820,0:13:48.960
+begin by locating the pertinent contract
+ 
+0:13:45.550,0:13:52.600
+opportunity and clicking its blue title
+ 
+0:13:48.960,0:13:55.030
+once on that opportunities page locate
+ 
+0:13:52.600,0:13:58.270
+the drop-down menu labeled actions and
+ 
+0:13:55.030,0:14:02.260
+select inactive to make the opportunity
+ 
+0:13:58.270,0:14:04.900
+inactive that contract opportunity is
+ 
+0:14:02.260,0:14:07.120
+now no longer publicly accessible and
+ 
+0:14:04.900,0:14:10.270
+all that will remain is an archived
+ 
+0:14:07.120,0:14:11.800
+record of the post all users following
+ 
+0:14:10.270,0:14:14.680
+the post will be notified of the status
+ 
+0:14:11.800,0:14:16.890
+change of the post should you need to
+ 
+0:14:14.680,0:14:19.540
+reopen a post for any reason in that
+ 
+0:14:16.890,0:14:23.320
+same Actions menu there will be the
+ 
+0:14:19.540,0:14:25.690
+option reactivate click this option to
+ 
+0:14:23.320,0:14:27.430
+reactivate the opportunity which will
+ 
+0:14:25.690,0:14:30.280
+create a draft notice which can then be
+ 
+0:14:27.430,0:14:33.040
+published any active post that is
+ 
+0:14:30.280,0:14:35.110
+deleted and designated cancelled will
+ 
+0:14:33.040,0:14:38.640
+display canceled as the status of the
+ 
+0:14:35.110,0:14:38.640
+post to notify vendors
+ 
+0:14:43.510,0:14:49.019
+[Music]
+ 
+ 
+

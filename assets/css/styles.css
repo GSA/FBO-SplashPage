@@ -114,8 +114,6 @@ a {
 /* FBO ANNOUNCEMENT SECTION
    ============================= */
 .fbo-announcement {
-  background-color: #f9faf9;
-  margin-top: 20px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -152,13 +150,12 @@ a {
   }
 
 .row1{
-  background: none;
+  background: #f6f6f2;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
 .row2{
-  background: #f6f6f2;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -168,9 +165,9 @@ a {
 }
 
 .row3{
+  background: #f6f6f2;
   align-items: center;
   justify-content: center;
-  background: none;
   padding-top: 50px;
   padding-bottom: 50px;
 }
