@@ -114,8 +114,6 @@ a {
 /* FBO ANNOUNCEMENT SECTION
    ============================= */
 .fbo-announcement {
-  background-color: #f9faf9;
-  margin-top: 20px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -152,13 +150,12 @@ a {
   }
 
 .row1{
-  background: none;
+  background: #f6f6f2;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
 .row2{
-  background: #f6f6f2;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -168,9 +165,9 @@ a {
 }
 
 .row3{
+  background: #f6f6f2;
   align-items: center;
   justify-content: center;
-  background: none;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -179,7 +176,6 @@ a {
   padding-top: 25px;
   align-items: center;
   justify-content: center;
-  text-align: center;
 }
 
 .search{
@@ -376,14 +372,13 @@ a {
 /* === accessible-html5-video-player === */
 
 .px-video-container video{
-  /*width: 100%;*/
-  width: 60%;
+  width: 70%;
 }
 
 /* === Tablet & Desktop === */
 @media all and (min-width: 640px) {
   .px-video-container {
-    width: 640px !important;
+    width: 100% !important;
     margin: auto;
   }
 }

@@ -107,6 +107,7 @@
     </header>
 
     <main id="main-content">
+
       <!-- SAM.gov Beta and FBO: Logos -->
       <div class="grid-container">
         <div class="grid-row grid-gap">
@@ -140,6 +141,62 @@
         </div>
       </div>
 
+      <!-- Buttons -->
+      <div class="buttons">
+        <div class="grid-container">
+          <div class="grid-row grid-gap help-section">
+            <div class="grid-col-3">
+              <a href="https://beta.sam.gov/help/library?domains=2&types=3&type=title">
+                <div class="grid-container grid-row grid-gap button-wrapper">
+                  <div class="grid-col-fill">
+                    <div class="video-img">
+                      <div class="image-wrap">
+                        <img class="actual-image" src="./assets/img/video.svg" alt="Video Training Library"/>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid-col-12">
+                    <p class="button-text">Video Training Library</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="grid-col-3 grid-offset-1">
+              <a href="https://beta.sam.gov/help/library?domains=2&types=2&type=title">
+                <div class="grid-container grid-row grid-gap button-wrapper">
+                  <div class="grid-col-fill">
+                    <div class="faq-img">
+                      <div class="image-wrap">
+                        <img class="actual-image" src="./assets/img/faq.svg" alt="Frequently Asked Questions"/>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid-col-12 faq-text">
+                    <p class="button-text">Frequently Asked Questions</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="grid-col-3 grid-offset-1">
+              <a href="https://beta.sam.gov/help/library?domains=2&types=2&type=title">
+                <div class="grid-container grid-row grid-gap button-wrapper">
+                  <div class="grid-col-fill">
+                    <div class="faq-img">
+                      <div class="image-wrap">
+                        <img class="actual-image" src="./assets/img/faq.svg" alt="Frequently Asked Questions"/>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid-col-12 faq-text">
+                    <p class="button-text">Buy American Act historical agency spend data</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- Announcement Section -->
       <div class="fbo-announcement">
         <div class="grid-container">
@@ -160,12 +217,40 @@
           <div class="grid-container">
             <div class="grid-row grid-gap">
               <div class="desktop:grid-col-6 tablet:grid-col-12">
-                <!-- Video -->
-                <div class="video-container">
-                  <video width="400" controls poster="./assets/video/searchopportunities.png">
-                    <source src="./assets/video/fire.mp4" type="video/mp4">
-                    Your browser does not support HTML5 video.
-                  </video>
+                <div class="px-video-container" id="fbovid">
+                  <div class="px-video-img-captions-container">
+                    <div class="px-video-captions hide" aria-hidden="true"></div>
+                    <video
+                    poster="./assets/video/searchopportunities.png"
+                    crossorigin=“anonymous”
+                    controls
+                    >
+                      <source
+                src="https://iae-prd-videos.s3.amazonaws.com/fbo/VID004_Signup_Signin.mp4"
+                type="video/mp4"
+/>
+                      <track
+                kind="captions"
+                label="English captions"
+                src=""
+                srclang="en"
+                default
+/>
+                      <div>
+                        <a
+                  href="https://iae-prd-videos.s3.amazonaws.com/fbo/VID004_Signup_Signin.mp4"
+                >
+                          <img
+                    src="./assets/video/searchopportunities.png"
+                    width="640"
+                    height="360"
+                    alt="download video"
+/>
+                        </a>
+                      </div>
+                    </video>
+                  </div>
+                  <div class="px-video-controls"></div>
                 </div>
               </div>
               <div class="desktop:grid-col-6 tablet:grid-col-12">
@@ -177,14 +262,18 @@
                       </h3>
                     </div>
                     <div class="desktop:grid-col-auto tablet:grid-col-12">
+                    <a href="http://falextracts.s3.amazonaws.com/Documentation/Federal%20Hierarchy/QSG%20Opportunities%20Part%204%20of%204%20-%20Contractors.pdf">
                       <img class="qsg" src="./assets/img/qsg.svg">
+                    </a>  
                     </div>
                     <div class="grid-col-fill">
                       <p class="video-text">beta.SAM.gov is now home to all active contract opportunities formerly posted to FBO.gov</p>
-                      <p class="video-text">Read the <a href="">Quick Start Guide</a> and get familiar with beta.SAM.gov's features</p>
-                      <button class="video-button">
-                        <img class="search" src="./assets/img/search.svg">Search Contract Opportunities
+                      <p class="video-text">Read the <a href="http://falextracts.s3.amazonaws.com/Documentation/Federal%20Hierarchy/QSG%20Opportunities%20Part%204%20of%204%20-%20Contractors.pdf">Quick Start Guide</a> and get familiar with beta.SAM.gov's features</p>
+                      <a href="https://beta.sam.gov/search?keywords=&sort=-modifiedDate&index=opp&is_active=true&page=1">
+                        <button class="video-button">
+                          <img class="search" src="./assets/img/search.svg">Search Contract Opportunities
                       </button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -195,16 +284,47 @@
         <!-- Row 2 -->
         <div class="row2">
           <div class="grid-container">
-            <div class="grid-row grid-gap">          
+            <div class="grid-row grid-gap">
               <div class="desktop:grid-col-6 tablet:grid-col-12 desktop:order-last">
-                  <!-- Video -->  
-                  <div class="video-container">
-                    <video width="400" controls poster="./assets/video/createaccount.png">
-                      <source src="./assets/video/fire.mp4" type="video/mp4">
-                      Your browser does not support HTML5 video.  
-                    </video>
-                  </div>
-              </div>  
+                <!-- Video -->
+                <div class="video-container">
+                          <div class="px-video-container" id="fbovid">
+          <div class="px-video-img-captions-container">
+            <div class="px-video-captions hide" aria-hidden="true"></div>
+            <video
+              poster="./assets/video/createaccount.png"
+              crossorigin=“anonymous”
+              controls
+            >
+              <source
+                src="https://iae-prd-videos.s3.amazonaws.com/fbo/VID006_Buyers_1_v2.mp4"
+                type="video/mp4"
+              />
+              <track
+                kind="captions"
+                label="English captions"
+                src="./assets/video/FederalUserContractOpportunities.vtt"
+                srclang="en"
+                default
+              />
+              <div>
+                <a
+                  href="https://iae-prd-videos.s3.amazonaws.com/fbo/VID006_Buyers_1_v2.mp4"
+                >
+                  <img
+                    src="./assets/video/createaccount.png"
+                    width="640"
+                    height="360"
+                    alt="download video"
+                  />
+                </a>
+              </div>
+            </video>
+          </div>
+          <div class="px-video-controls"></div>
+        </div>
+                </div>
+              </div>
               <div class="desktop:grid-col-6 tablet:grid-col-12 desktop:order-first">
                 <div class="grid-container">
                   <div class="grid-row grid-gap">
@@ -213,17 +333,21 @@
                       </h3>
                     </div>
                     <div class="desktop:grid-col-auto tablet:grid-col-12">
-                      <img class="qsg margin-top-4" src="./assets/img/qsg.svg">
+                      <a href="http://falextracts.s3.amazonaws.com/Documentation/Federal%20Hierarchy/_beta.SAM%20-%20login.gov%20Quick%20Start.docx%20%281%29%20%284%29.pdf">
+                        <img class="qsg margin-top-4" src="./assets/img/qsg.svg">
+                      </a>
                     </div>
                     <div class="grid-col-fill">
                       <p class="video-text">Users with accounts have the ability to save searches, follow opportunities, and join interested vendor lists</p>
-                      <p class="video-text">Read the <a href="">Quick Start Guide</a> and get up and running on beta.SAM.gov</p>
-                      <button class="video-button"><img class="user" src="./assets/img/user.svg">Sign up for beta.SAM.gov</button>
-                    </div>
+                      <p class="video-text">Read the <a href="http://falextracts.s3.amazonaws.com/Documentation/Federal%20Hierarchy/_beta.SAM%20-%20login.gov%20Quick%20Start.docx%20%281%29%20%284%29.pdf">Quick Start Guide</a> and get up and running on beta.SAM.gov</p>
+                      <a href="https://beta.sam.gov/">
+                        <button class="video-button">
+                          <img class="user" src="./assets/img/user.svg">Sign up for beta.SAM.gov</button>
+                      </div>
+                    </a>
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
@@ -234,10 +358,41 @@
               <div class="desktop:grid-col-6 tablet:grid-col-12">
                 <div class="video-container">
                   <!-- Video -->
-                  <video width="400" controls poster="./assets/video/postopportunities.png">
-                    <source src="./assets/video/fire.mp4" type="video/mp4">
-                    Your browser does not support HTML5 video.
-                  </video>
+                  <div class="px-video-container" id="fbovid">
+          <div class="px-video-img-captions-container">
+            <div class="px-video-captions hide" aria-hidden="true"></div>
+            <video
+              poster="./assets/video/postopportunities.png"
+              crossorigin=“anonymous”
+              controls
+            >
+              <source
+                src="https://iae-prd-videos.s3.amazonaws.com/fbo/VID007_Bidders.mp4"
+                type="video/mp4"
+              />
+              <track
+                kind="captions"
+                label="English captions"
+                src="./assets/video/Contractors.vtt"
+                srclang="en"
+                default
+              />
+              <div>
+                <a
+                  href="https://iae-prd-videos.s3.amazonaws.com/fbo/VID007_Bidders.mp4"
+                >
+                  <img
+                    src="./assets/video/postopportunities.png"
+                    width="640"
+                    height="360"
+                    alt="download video"
+                  />
+                </a>
+              </div>
+            </video>
+          </div>
+          <div class="px-video-controls"></div>
+        </div>
                 </div>
               </div>
               <div class="desktop:grid-col-6 tablet:grid-col-12">
@@ -249,56 +404,22 @@
                       </h3>
                     </div>
                     <div class="desktop:grid-col-auto tablet:grid-col-12">
+                      <a href="http://falextracts.s3.amazonaws.com/Documentation/Federal%20Hierarchy/QSG%20Opportunities%20Part%202%20of%204%20-%20Create%2C%20Edit%2C%20and%20Post.pdf">
                       <img class="qsg margin-top-4" src="./assets/img/qsg.svg">
+                      </a>
                     </div>
                     <div class="grid-col-fill">
                       <p class="video-text">Once you've migrated your FBO roles or obtained roles from your agency administrator, start posting</p>
-                      <p class="video-text">Read the <a href="">Quick Start Guide</a> and start posting your opportunities on beta.SAM.gov</p>
-                      <button class="video-button"><img class="workspace" src="./assets/img/workspace.svg">Sign in to your Workspace</button>
+                      <p class="video-text">Read the <a href="http://falextracts.s3.amazonaws.com/Documentation/Federal%20Hierarchy/QSG%20Opportunities%20Part%202%20of%204%20-%20Create%2C%20Edit%2C%20and%20Post.pdf">Quick Start Guide</a> and start posting your opportunities on beta.SAM.gov</p>
+                      <a href="https://beta.sam.gov/">
+                        <button class="video-button">
+                          <img class="workspace" src="./assets/img/workspace.svg">Sign in to your Workspace
+                      </button>
+                      </a>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Buttons -->
-      <div class="buttons">
-        <div class="grid-container">
-          <div class="grid-row grid-gap help-section">
-            <div class="grid-col-4 grid-offset-1">
-              <a href="">
-                <div class="grid-container grid-row grid-gap button-wrapper">
-                  <div class="grid-col-fill">
-                    <div class="video-img">
-                      <div class="image-wrap">
-                        <img class="actual-image" src="./assets/img/video.svg" alt="Video Training Library"/>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="grid-col-12">
-                    <p class="button-text">Video Training Library</p>
-                  </div>
-                </div>
-              </a>  
-            </div>
-            <div class="grid-col-4 grid-offset-2">
-              <a href="">
-                <div class="grid-container grid-row grid-gap button-wrapper">
-                  <div class="grid-col-fill">
-                    <div class="faq-img">
-                      <div class="image-wrap">
-                        <img class="actual-image" src="./assets/img/faq.svg" alt="Frequently Asked Questions"/>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="grid-col-12 faq-text">
-                    <p class="button-text">Frequently Asked Questions</p>
-                  </div>
-                </div>
-              </a>
             </div>
           </div>
         </div>
