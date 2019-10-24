@@ -378,7 +378,7 @@ a {
 /* === Tablet & Desktop === */
 @media all and (min-width: 640px) {
   .px-video-container {
-    width: 640px !important;
+    width: 100% !important;
     margin: auto;
   }
 }
