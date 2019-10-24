@@ -176,7 +176,6 @@ a {
   padding-top: 25px;
   align-items: center;
   justify-content: center;
-  text-align: center;
 }
 
 .search{
@@ -373,8 +372,7 @@ a {
 /* === accessible-html5-video-player === */
 
 .px-video-container video{
-  /*width: 100%;*/
-  width: 60%;
+  width: 70%;
 }
 
 /* === Tablet & Desktop === */
