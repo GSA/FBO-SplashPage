@@ -141,7 +141,14 @@ function InitPxVideo(options) {
     // revert back to default styles
       // obj.container.setAttribute("style", "width:" + obj.movieWidth + "px");
       obj.controls.className = "px-video-controls";
-      obj.captionsContainer.className = "px-video-captions";
+
+      if(obj.captionsBtn.checked) {
+        obj.captionsContainer.className = "px-video-captions show";
+      }
+      else {
+        obj.captionsContainer.className = "px-video-captions hide";
+      }
+
       obj.movie.setAttribute('width', obj.movieWidth);
       obj.movie.setAttribute('height', obj.movieHeight);
     }
