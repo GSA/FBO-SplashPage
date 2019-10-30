@@ -196,7 +196,7 @@
               <div class="desktop:grid-col-6 tablet:grid-col-12">
                 <!-- Video -->
                 <div class="video-container">
-                  <div class="px-video-container">
+                  <div class="px-video-container" id="searchopps_video">
                     <div class="px-video-img-captions-container">
                       <div class="px-video-captions hide" aria-hidden="true"></div>
                       <video poster="./assets/img/searchopportunities.png" crossorigin=“anonymous” controls >
@@ -251,7 +251,7 @@
               <div class="desktop:grid-col-6 tablet:grid-col-12 desktop:order-last">
                 <!-- Video -->
                 <div class="video-container">
-                  <div class="px-video-container">
+                  <div class="px-video-container"  id="postopps_video">
                     <div class="px-video-img-captions-container">
                       <div class="px-video-captions hide" aria-hidden="true"></div>
                       <video poster="./assets/img/postopportunities.png" crossorigin=“anonymous” controls >
@@ -304,7 +304,7 @@
               <div class="desktop:grid-col-6 tablet:grid-col-12">
                 <!-- Video -->
                 <div class="video-container">
-                  <div class="px-video-container">
+                  <div class="px-video-container" id="federalaccount_video">
                     <div class="px-video-img-captions-container">
                       <div class="px-video-captions hide" aria-hidden="true"></div>
                       <video poster="./assets/img/createaccount.png" crossorigin=“anonymous” controls >
@@ -374,5 +374,11 @@
     <script src="./libs/uswds-2.0.2/js/uswds.min.js"></script>
     <script src="./libs/accessible-html5-video-player/js/strings.js"></script>
     <script src="./libs/accessible-html5-video-player/js/px-video.js"></script>
+    <script>
+      // Initialize Video
+      new InitPxVideo({videoId: "searchopps_video", captionsOnDefault: false, seekInterval: 20, videoTitle: "Search Contract Opportunities", debug: true});
+      new InitPxVideo({videoId: "postopps_video", captionsOnDefault: false, seekInterval: 20, videoTitle: "Post An Opportunity", debug: true});
+      new InitPxVideo({videoId: "federalaccount_video", captionsOnDefault: false, seekInterval: 20, videoTitle: "Create An Account", debug: true});
+    </script>
   </body>
 </html>
