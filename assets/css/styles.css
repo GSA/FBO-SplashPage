@@ -10,7 +10,7 @@
 }
 
 a {
-  color: #2378c3;
+  color: #005ea2;
   text-decoration: none;
   text-align: center;
 }
@@ -36,46 +36,12 @@ a {
 
 /* FBO AND SAM LOGOS
    ============================= */
-.fbo-logos__fbo,
-.fbo-logos__sam {
-  display: flex;
-  align-items: center;
+
+.fbo-logo{
+  width: 60%;
+  margin: auto;
 }
 
-.fbo-logos__fbo{
-  justify-content: flex-end;
-}
-
-.fbo-logos__sam {
-  justify-content: flex-start;
-}
-
-.fbo-logos__fbo img{
-  margin-right: 20px;
-  width: 110px;
-}
-
-.fbo-logos__sam img{
-  width: 120px;
-}
-
-/* === Tablet & Desktop === */
-@media all and (min-width: 640px) {
-  .fbo-logos__fbo,
-  .fbo-logos__sam {
-    justify-content: center;
-  }
-
-  .fbo-logos__fbo img{
-    margin-top: -30px; /* Visually centers with text */
-    margin-right: 0;
-    width: 150px;
-  }
-
-  .fbo-logos__sam img{
-    width: 150px;
-  }
-}
 
 /* FBO AND SAM CONTENT
    ============================= */
@@ -150,12 +116,13 @@ a {
   }
 
 .row1{
-  background: #f6f6f2;
+
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
 .row2{
+  background: #f0f0f0;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -165,7 +132,6 @@ a {
 }
 
 .row3{
-  background: #f6f6f2;
   align-items: center;
   justify-content: center;
   padding-top: 50px;
@@ -231,22 +197,30 @@ a {
 /* BUTTONS SECTION
    ======================= */
 
-.buttons{
-  background: #f9f9f7;
+.buttons {
+  background: #f0f0f0;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-.video-img, .faq-img{
+.video-img, .faq-img, .buyamerican-img {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 20px;
+  min-height: 70px;
 }
 
-.button-wrapper{
+.button-wrapper {
   border: 1px solid #376086;
   border-radius: 20px;
+  display: block;
+  height: 100%;
+  padding: 10px;
+}
+
+.button-wrapper img {
+  width:90%;
+  margin: 10px 0 0 0;
 }
 
 .button-wrapper:hover{
@@ -261,13 +235,17 @@ a {
   margin: auto;
 }
 
-.video-img img{
+.video-img img {
   width: 60px;
   height: 50px;
 }
 
-.faq-img img{
+.faq-img img {
   width: 80px;
+}
+
+.buyamerican-img img {
+  width: 60px;
 }
 
 .faq-text{
@@ -279,6 +257,7 @@ a {
 
 .button-text{
   margin-top: 4px;
+  margin-bottom: 0;
   display: flex;
   text-align: center;
   justify-content: center;
