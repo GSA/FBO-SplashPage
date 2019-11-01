@@ -145,19 +145,22 @@ a {
 }
 
 .search{
-    height: 25px;
-    padding-left: 5px;
-    padding-right: 10px;
+  height: 40px;
+  width: 40px;
+  padding-left: 5px;
+  padding-right: 10px;
 }
 
 .user{
-  height: 25px;
+  height: 40px;
+  width: 40px;
   padding-left: 5px;
   padding-right: 10px;
 }
 
 .workspace{
-  height: 25px;
+  height: 40px;
+  width: 40px;
   padding-left: 5px;
   padding-right: 10px;
 }
