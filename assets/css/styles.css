@@ -45,6 +45,28 @@ a {
 
 /* FBO AND SAM CONTENT
    ============================= */
+.alert > h1 {
+  font-family:Source Sans Pro Web;
+  font-size:48px;
+  font-weight:500;
+  font-style: italic;
+  text-align: center;
+  margin-top:0px;
+  margin-bottom:8px;
+  color:#2e2e2a;
+}
+
+.alert > h2 {
+  font-family:Source Sans Pro Web;
+  font-size:32px;
+  font-weight:500;
+  font-style: italic;
+  text-align: center;
+  margin-top:0px;
+  margin-bottom:48px;
+  color:#2e2e2a;
+}
+
 .dividing-line::after{
   content: "";
   display: block;
